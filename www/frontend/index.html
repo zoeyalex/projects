@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+       function roll()
+       {
+        document.getElementById("result").innerHTML = "Rolled: " + Math.floor((Math.random() * 10) + 1);
+       }
+</script>
+<style>
+.button 
+{
+    margin-top: 21%;
+}
+</style>
+<title>siema</title>    
+</head>
+<body>
+    <center>
+        <button onclick="roll()" class="button">Roll</button>
+        <br>
+        <div id="result">Rolled: -</div>
+    </center>
+</body>
+</html>
