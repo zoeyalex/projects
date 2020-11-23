@@ -10,6 +10,7 @@ class Version
 {
 private:
 	unsigned int major, minor, release;
+
 public:
 	Version(unsigned int _major, unsigned int _minor, unsigned int _release)
 		: major(_major)
