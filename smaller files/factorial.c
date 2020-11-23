@@ -13,4 +13,6 @@ int main()
 {
    int result = factorial(5);
    printf("%d", result);
+
+   return 0;
 }
