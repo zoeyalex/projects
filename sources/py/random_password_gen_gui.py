@@ -39,7 +39,7 @@ class Application(tk.Frame):
         self.output.place(height=20, width=400, relx=0.5, rely=0.8, anchor=tk.CENTER)
         self.output.configure(font=("Consolas", 9, "bold"), **style)
 
-        self.photo = tk.PhotoImage(file=r"C:\Users\zoey\Desktop\cancel.png")
+        self.photo = tk.PhotoImage(file=r"path") # put your image path here
 
         self.exit = tk.Button(window, image=self.photo, command=window.destroy)
         self.exit.configure(background="slateblue4")
